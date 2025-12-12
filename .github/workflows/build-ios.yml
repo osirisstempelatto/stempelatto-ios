@@ -20,10 +20,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # Quitá o comenta esta parte si no tenés build
-      #- name: Build web app
-      #  run: npm run build
-
       - name: Copy web assets to iOS
         run: npx cap copy ios
 
